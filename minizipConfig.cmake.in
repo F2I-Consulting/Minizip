@@ -2,6 +2,6 @@
 include(CMakeFindDependencyMacro)
 find_dependency(ZLIB REQUIRED)
 
-if(NOT TARGET Minizip::Minizip)
-	include("${CMAKE_CURRENT_LIST_DIR}/MinizipTargets.cmake")
+if(NOT TARGET minizip::minizip)
+	include("${CMAKE_CURRENT_LIST_DIR}/minizipTargets.cmake")
 endif()
